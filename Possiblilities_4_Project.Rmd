@@ -1,0 +1,59 @@
+---
+title: "Possibilities_4_Project"
+author: "Matthew Palagyi"
+date: '2022-08-03'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(tinytex)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Prediction Possibilities
+
+- [ ] Predict the Final Table of the PL
+- [ ] Predict W/D/L for Arsenal
+   * Predict GS/GA for each game - before game begins
+   * Geographically Weighted (Away vs home)
+    * Explanatory Variables
+    * Using Data for Past 10+ seasons
+      * Points Tally for last 5 matches
+      * Month
+      * Day of Week
+      * Opposition (By GWR)
+      * Position in Table
+      * Opposition Position in Table 
+      
+   
+
+
+
+##how to make a bullet list
+
+* Item 1
+  * sub item 1 
+  * sub item 2 
+    * sub-sub-item 1b
+
+
+
+
+
+
+
+## Pre Trip Truck
+
+- [ ] 360 Walkaround
+   * watch for debris
+   * tire pressure
+   * oilcheck for leaks
+   * watch for kids
+   * check lugnuts (wheels)
+- [ ] Check for Fluids (Under the hood)
+   * oil
+   * brake fluid (make sure it's above the add line)
+   * steering fluid
+   * transmission fluid (if applicable) 
+- [ ] Check Fire Extinguisher and Safety Kit (Monthly / As Needed)
