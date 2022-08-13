@@ -1,0 +1,24 @@
+---
+title: "Log of Project Work"
+author: "Matthew Palagyi"
+date: '2022-08-13'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(tinytex)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# PL Project Log
+
+## 8/03
+- [ ] Created GIT Repository for Project
+- [ ] Created "Possibilities_4_Project" Notebook
+
+## 8/13
+- [ ] Took notes during game vs Leicester City
+- [ ] Finished catching up on excel csv data from 21/22 Season
+- [ ] Created Draft Report for the beginning of data creation + needed wrangling for project - "PL_Project_Draft"
+- [ ] Created new excel csv's from original, and brought them into "PL_Project_Draft"

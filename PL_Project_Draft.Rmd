@@ -1,0 +1,89 @@
+---
+title: "PL Project Draft"
+author: "Matthew Palagyi"
+date: '2022-08-13'
+output: pdf_document
+---
+
+*Needed Libraries*
+```{r message=FALSE, warning=FALSE, results='hide'}
+library(knitr)
+library(tinytex)
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(sf)
+library(readxl)
+library(spdep)
+library(caret)
+library(ckanr)
+library(grid)
+library(gridExtra)
+library(knitr)
+library(kableExtra)
+library(tidycensus)
+library(scales)
+library(ggpubr)
+library(ggcorrplot)
+library(coefplot)
+library(rsample)
+library(ggpubr)
+library(jtools)
+library(gridExtra)
+library(car)
+library(zoo)
+library(tmap)
+library(gifski)
+library(gganimate)
+library(ggthemes)
+library(ggmap)
+library(seg)
+library(viridis)
+library(ggthemes)
+library(seg)
+```
+
+# PL Project Draft
+
+```{r include = TRUE, message=FALSE, warning=FALSE, results='hide'}
+#reading in already created excel csv
+
+us_census_tract_1960 <- st_read("./data/US_tract_1960.shp")
+
+excel_table1 <- read_excel("./Arsenal Premier League Finishes and Results_1.xlsx")
+
+excel_table1 <- read_excel("./Arsenal Premier League Finishes and Results_2.xlsx")
+  
+  
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
